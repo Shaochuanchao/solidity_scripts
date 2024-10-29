@@ -1,0 +1,15 @@
+networks:
+  goerli:
+    rpc: https://goerli.infura.io/v3/${INFURA_PROJECT_ID}
+    privateKey: your_wallet_private_key
+    etherscanApiKey: your_etherscan_api_key
+
+  mumbai:
+    rpc: https://polygon-mumbai.infura.io/v3/${INFURA_PROJECT_ID}
+    privateKey: your_wallet_private_key
+    etherscanApiKey: your_polygonscan_api_key
+
+  bscTestnet:
+    rpc: https://data-seed-prebsc-1-s1.binance.org:8545
+    privateKey: your_wallet_private_key
+    etherscanApiKey: your_bscscan_api_key 
